@@ -246,8 +246,8 @@ checkpoint_merge       When checkpoint is enabled, this can be used to create a 
                        This is the same way to give a I/O priority to the jbd2
                        journaling thread of ext4 filesystem.
 nocheckpoint_merge     Disable checkpoint merge feature.
-compress_algorithm=%s  Control compress algorithm, currently f2fs supports "lzo"
-                       and "lz4" algorithm.
+compress_algorithm=%s  Control compress algorithm, currently f2fs supports "lzo",
+                       "lz4" and "zstd" algorithm.
 compress_log_size=%u   Support configuring compress cluster size, the size will
                        be 4KB * (1 << %u), 16KB is minimum size, also it's
                        default size.
